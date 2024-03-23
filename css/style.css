@@ -207,3 +207,7 @@ footer{
     color: var(--another-text-color);
     font-family: 'Ubuntu';
 }
+
+footer a:-webkit-any-link{
+    color: var(--another-text-color);
+}
