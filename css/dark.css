@@ -43,7 +43,7 @@ header {
     width: 100%;
     height: max-content;
     background-color: var(--header-color);
-    padding: 1vh 20px 1vh 20px;
+    padding: 1vh 0px 1vh 0px;
     vertical-align: middle;
     border-style: solid;
     border-color: rgba(47, 47, 47, 0.785);
@@ -203,12 +203,12 @@ button {
 
 footer{
     position: static;
-    width: 100%;
-    min-height: 2vh;
+    height: max-content;
     background-color: var(--footer-color);
     padding: 5vh 5vw 5vh 5vw;
     color: white;
     font-family: 'Ubuntu';
+    overflow-x: hidden;
 }
 
 footer a:-webkit-any-link{
@@ -216,11 +216,11 @@ footer a:-webkit-any-link{
 }
 
 .theme-switch {
+    position: fixed;
     width: 45px;
     height: 45px;
-    position: fixed;
-    bottom: 5px;
-    right: 5px;
+    bottom: 1vw;
+    right: 1vw;
     background-image: url("../images/light_mode.png");
     background-size:cover;
     transition: 1s;

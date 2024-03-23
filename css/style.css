@@ -43,7 +43,7 @@ header {
     width: 100vw;
     height: max-content;
     background-color: var(--header-color);
-    padding: 1vh 20px 1vh 20px;
+    padding: 1vh 0px 1vh 0px;
     vertical-align: middle;
     border-style: solid;
     border-color: rgba(47, 47, 47, 0.785);
