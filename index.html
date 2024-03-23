@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/scroll.css">
     <title>EnigmaIRC</title>
 </head>
-<body>
+<body style="overflow-x:hidden;">
     <script src="js/download.js"></script>
     <script src="js/theme.js"></script>
     <header>
@@ -36,7 +36,7 @@
     </p>
         <br><br><br>
         <div class="auto-download-box">
-            <button class="auto-download" id="auto-download">
+            <button class="auto-download" id="auto-download" onclick="dWindows();">
                 <b>Установить</b><br>
                 <p class="small-btn-text" id="small-btn-text">Windows 10/11</p>
                 
@@ -64,6 +64,7 @@
     </div>
     <div class="container" id="container-3">
         <h2 id="download_title">Установить</h2>
+        <hr>
         <h3>Клиент</h3>
         <button class="download_button" onclick="dWindows();">
             <b>EnigmaIRC v0.4a</b>
@@ -85,8 +86,12 @@
         <h2>EnigmaIRC© 2024</h2><br>
         <a href="https://github.com/Dertfin3051/EnigmaIRC/blob/master/README.md"><p>Документация</p></a>
         <a href="https://github.com/Dertfin3051/EnigmaIRC/blob/master/LICENSE.md"><p>Лицензия продукта</p></a>
+        
     </footer>
+
     <a onclick="switchTheme()"><div class="theme-switch"></div></a>
+
+    
     
 </body>
 </html>

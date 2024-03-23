@@ -121,6 +121,7 @@ header .nav li:last-child {
     font-size: var(--big-text-scale);
     font-family: 'Ubuntu';
     width: 90vw;
+    padding-top:0;
 }
 
 h2 {
@@ -223,4 +224,131 @@ footer a:-webkit-any-link{
     background-image: url("../images/light_mode.png");
     background-size:cover;
     transition: 1s;
+}
+
+@media (max-width: 1024px){
+    .auto-download {
+        padding: 0vh 2vw 0vh 2vw;
+        height: 10vh;
+    }
+}
+
+@media (max-width: 768px){
+    .auto-download {
+        padding: 0.5vh 2vw 0.5vh 2vw;
+        height: max-content;
+    }
+
+    .download_button {
+        width: 50vw;
+        height: max-content;
+        text-align: left;
+        padding: 1vh 1vw;
+        border-radius: 5px;
+        margin-right: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    #container-1 {
+        padding: 15vh 5vw 5vh 5vw;
+        width: 90vw;
+        overflow-x: hidden;
+    }
+
+    header .logo h1{
+        font-family: "PatuaOne", sans-serif;
+        font-size: 4vh;
+        display: block;
+        margin-right: 3vw;
+        transition: 0.6s;
+    }
+    
+    header .logo h1:hover{
+        font-size: 4vh;
+    }
+
+    header .nav li {
+        display: inline-block;
+        font-size: 3vh;
+        font-family: "Carlito";
+        margin-right: 3vw;
+        transition: 0.6s;
+    }
+    
+    header .nav li:hover{
+        font-size: 3.2vh;
+    }
+
+    :root {
+        --big-text-scale: 2em;
+    }
+
+    .small-btn-text {
+        font-size: calc(var(--button-text-scale)* 0.6);
+    }
+}
+
+@media (max-width: 420px){
+    .auto-download {
+        padding: 0.5vh 2vw 0.5vh 2vw;
+        height: max-content;
+    }
+
+    .download_button {
+        width: 80vw;
+        height: max-content;
+        text-align: left;
+        padding: 1vh 1vw;
+        border-radius: 5px;
+        margin-right: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    #container-1 {
+        padding: 15vh 5vw 5vh 5vw;
+        width: 90vw;
+        overflow-x: hidden;
+    }
+
+    header .logo h1{
+        font-family: "PatuaOne", sans-serif;
+        font-size: 4vh;
+        display: block;
+        margin-right: 3vw;
+        transition: 0.6s;
+    }
+    
+    header .logo h1:hover{
+        font-size: 4vh;
+    }
+
+    header .nav li {
+        display: inline-block;
+        font-size: 3vh;
+        font-family: "Carlito";
+        margin-right: 3vw;
+        transition: 0.6s;
+    }
+    
+    header .nav li:hover{
+        font-size: 3.2vh;
+    }
+
+    :root {
+        --big-text-scale: 1.75em;
+        --button-text-scale: 0.9em;
+    }
+
+    .small-btn-text {
+        font-size: calc(var(--button-text-scale)* 0.75);
+    }
+
+    .b1 {
+        font-size: calc(var(--big-text-scale)* 0.6);
+    }
+
+    .other-versions-text {
+        margin-top: 0.5vh;
+        font-size: calc(var(--button-text-scale)* 0.7);
+    }
 }
