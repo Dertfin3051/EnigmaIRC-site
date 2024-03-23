@@ -99,7 +99,7 @@ header .nav li:last-child {
 }
 
 #container-1 {
-    background-image: url("../images/bg_light.png");
+    background-image: url("../images/bg_light.jpg");
     padding: 15vh 5vw 5vh 5vw;
     color: var(--another-text-color);
     font-size: var(--big-text-scale);
