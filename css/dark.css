@@ -215,8 +215,8 @@ footer a:-webkit-any-link{
 }
 
 .theme-switch {
-    width: 3vw;
-    height: 3vw;
+    width: 45px;
+    height: 45px;
     position: fixed;
     bottom: 5px;
     right: 5px;
