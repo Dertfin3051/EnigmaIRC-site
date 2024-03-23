@@ -9,6 +9,7 @@
 :root {
     --bg-color: white;
     --header-color: white;
+    --footer-color: rgb(24, 24, 24);
     --text-color: black;
     --another-text-color: white;
     --big-text-scale: 1.75em;
@@ -28,6 +29,9 @@ a p{
     text-decoration: none;
 }
 
+a:-webkit-any-link{
+    color: var(--text-color);
+}
 
 
 body {
@@ -110,12 +114,24 @@ header .nav li:last-child {
     width: 90vw;
 }
 
+#container-3 {
+    padding: 5vw;
+    color: var(--text-color);
+    font-size: var(--big-text-scale);
+    font-family: 'Ubuntu';
+    width: 90vw;
+}
+
 h2 {
     font-size: 1.5em;
 }
 
 h3 {
     font-size: 1em;
+}
+
+hr {
+    border-color: rgb(148, 0, 216);
 }
 
 .what-new {
@@ -156,6 +172,16 @@ button {
     margin-right: 1vw;
 }
 
+.download_button {
+    width: 25vw;
+    height: max-content;
+    text-align: left;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    margin-right: 2vh;
+    margin-bottom: 2vh;
+}
+
 .auto-download {
     padding: 0vh 1.5vw 0vh 1.5vw;
     height: 8vh;
@@ -170,4 +196,14 @@ button {
 .other-versions-text{
     font-size: calc(var(--button-text-scale) * 0.6);
     color: var(--another-text-color);
+}
+
+footer{
+    position: static;
+    width: 100%;
+    min-height: 2vh;
+    background-color: var(--footer-color);
+    padding: 5vh 5vw 5vh 5vw;
+    color: var(--another-text-color);
+    font-family: 'Ubuntu';
 }

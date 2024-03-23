@@ -8,3 +8,7 @@
     background-color: rgb(184, 184, 184);
     border-radius: 15px;
 }
+
+html{
+    scroll-behavior: smooth;
+}

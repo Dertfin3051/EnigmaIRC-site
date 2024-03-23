@@ -16,14 +16,17 @@
         <nav>
             <ul class="nav">
                 <li><a href="https://github.com/Dertfin3051/EnigmaIRC" target="_blank" title="Переход на репозиторий проекта в GitHub">GitHub</a></li>
-                <li><a href="">Документация</a></li>
-                <li><a href="">Скачать</a></li>
+                <li><a href="#download_title">Документация</a></li>
+                <li><a href="#download_title">Скачать</a></li>
             </ul> 
         </nav>
             
     </header>
     <div class="container" id="container-1">
-        <p class="b1"><b>EnigmaIRC</b></p> - примитивный мессенджер для обмена сообщениями между небольшим количеством пользователей, использующее симметричное шифрование и рассчитаный на защищённый обмен информацией.
+        <article>
+            <p class="b1"><b>EnigmaIRC</b></p> - примитивный мессенджер для обмена сообщениями между небольшим количеством пользователей, использующее симметричное шифрование и рассчитаный на защищённый обмен информацией.
+        </article>
+        
         <br><br><br>
         <b>Как это устроено?</b><br>
         <p class="b2">
@@ -39,7 +42,7 @@
             </button>
             
             <br>
-            <a href="#">
+            <a href="#download_title">
                 <p class="other-versions-text">Другие версии</p>
             </a>
         </div>
@@ -49,11 +52,38 @@
     <div class="container" id="container-2">
         <h2 class="what-new">Что нового?</h2>
         <h3>v0.4a</h3>
+        <hr>
         <p>·Добавлены исключения для избежания ошибок в коде, которые приводят к вылету программы.</p>
         <p>Теперь при возникновении ошибок вы узнаете, что именно произошло, что поможет исправить проблему</p><br>
+
+        <h3>Сайт</h3>
+        <hr>
+        <p>С шансом 25% фон может замениться с Ubuntu на Windows 10</p><br>
     </div>
     <div class="container" id="container-3">
-
+        <h2 id="download_title">Установить</h2>
+        <h3>Клиент</h3>
+        <button class="download_button" onclick="dWindows();">
+            <b>EnigmaIRC v0.4a</b>
+            <p class="small-btn-text">Windows 10/11</p>
+        </button>
+        <button class="download_button" onclick="dLinux();">
+            <b>EnigmaIRC v0.4a</b>
+            <p class="small-btn-text">Linux <i>(Source code)</i></p>
+        </button>
+        <br>
+        <br>
+        <h3>Сервер</h3>
+        <button class="download_button" onclick="dServer();">
+            <b>EnigmaIRC Server v0.4a</b>
+            <p class="small-btn-text">Linux <i>(Source code)</i></p>
+        </button>
     </div>
+    <footer>
+        <h2>EnigmaIRC© 2024</h2><br>
+        <a href=""><p>Документация</p></a>
+        <a href=""><p>Лицензия сайта</p></a>
+        <a href="https://github.com/Dertfin3051/EnigmaIRC/blob/master/LICENSE.md"><p>Лицензия продукта</p></a>
+    </footer>
 </body>
 </html>
