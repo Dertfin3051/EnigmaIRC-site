@@ -11,9 +11,9 @@
     --header-color: white;
     --text-color: black;
     --another-text-color: white;
-    --container1-bg: url("../images/bg_light.png");
     --big-text-scale: 1.75em;
     --button-text-scale: 1em;
+    --normal-text-scale: 0.9em;
 }
 
 a {
@@ -94,12 +94,36 @@ header .nav li:last-child {
 }
 
 #container-1 {
-    background-image: var(--container1-bg);
+    background-image: url("../images/bg_light.png");
     padding: 15vh 5vw 5vh 5vw;
     color: var(--another-text-color);
     font-size: var(--big-text-scale);
     font-family: 'Ubuntu';
     width: 90vw;
+}
+#container-2 {
+    background-color: var(--bg-color);
+    padding: 5vw;
+    color: var(--text-color);
+    font-size: var(--big-text-scale);
+    font-family: 'Ubuntu';
+    width: 90vw;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+.what-new {
+    margin-bottom: 2vh;
+}
+
+#container-2 p {
+    font-size: var(--normal-text-scale);
 }
 
 .b1 {
