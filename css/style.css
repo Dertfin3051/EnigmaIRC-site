@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: white;
+    --header-color: white;
+    --text-color: black;
+    --another-text-color: white;
+    --container1-bg: url("../images/bg_light.png");
+    --big-text-scale: 1.75em;
+    --button-text-scale: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+a p{
+    text-decoration: none;
+}
+
+
+
+body {
+    background-color: var(--bg-color);
+    overflow-x: hidden;
+}
+
+header {
+    width: 100%;
+    height: max-content;
+    background-color: var(--header-color);
+    padding: 1vh 20px 1vh 20px;
+    vertical-align: middle;
+    border-style: solid;
+    border-color: rgba(47, 47, 47, 0.785);
+    border-width: 0px 0px 3px 0px;
+    text-align: center;
+    position: fixed;
+}
+
+header .logo h1{
+    font-family: "PatuaOne", sans-serif;
+    font-size: 5vh;
+    display: inline;
+    margin-right: 5vw;
+    transition: 0.6s;
+}
+
+header .logo h1:hover{
+    font-size: 5.2vh;
+}
+
+header .nav {
+    list-style: none;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header .nav li {
+    display: inline-block;
+    font-size: 4vh;
+    font-family: "Carlito";
+    margin-right: 3vw;
+    transition: 0.6s;
+}
+
+header .nav li:hover{
+    font-size: 4.2vh;
+}
+
+header .nav li:last-child {
+    margin-right: 0vw;
+}
+
+.container{
+    background-position: center;
+    background-size: cover;
+    min-height:auto;
+    height: max-content;
+    width: 100vw;
+    padding: 30px;
+}
+
+#container-1 {
+    background-image: var(--container1-bg);
+    padding: 15vh 5vw 5vh 5vw;
+    color: var(--another-text-color);
+    font-size: var(--big-text-scale);
+    font-family: 'Ubuntu';
+    width: 90vw;
+}
+
+.b1 {
+    display: inline-block;
+    font-size: var(--big-text-scale);
+    font-size: calc(var(--big-text-scale) * 0.75);
+}
+
+.b2 {
+    display: inline-block;
+    font-size: var(--big-text-scale);
+    font-size: calc(var(--big-text-scale) * 0.4);
+}
+
+button {
+    font-size: var(--button-text-scale);
+    width: 15vw;
+    border-radius: 2vh;
+    background-color: rgb(47, 61, 255);
+    color: var(--another-text-color);
+    font-family: 'Ubuntu';
+    height: 8vh;
+}
+
+.auto-download-box{
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    display: inline-block;
+    margin-right: 1vw;
+}
+
+.auto-download {
+    padding: 0vh 1.5vw 0vh 1.5vw;
+    height: 8vh;
+    width: max-content;
+    display: inline-block;
+}
+
+.small-btn-text{
+    font-size: calc(var(--button-text-scale) * 0.5);
+}
+
+.other-versions-text{
+    font-size: calc(var(--button-text-scale) * 0.6);
+    color: var(--another-text-color);
+}
