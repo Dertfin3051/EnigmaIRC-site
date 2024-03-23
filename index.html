@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" id="main_theme">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/scroll.css">
     <title>EnigmaIRC</title>
 </head>
 <body>
     <script src="js/download.js"></script>
+    <script src="js/theme.js"></script>
     <header>
 
         <a class="logo"><h1>EnigmaIRC</h1></a>
@@ -53,12 +54,13 @@
         <h2 class="what-new">Что нового?</h2>
         <h3>v0.4a</h3>
         <hr>
-        <p>·Добавлены исключения для избежания ошибок в коде, которые приводят к вылету программы.</p>
+        <p>· Добавлены исключения для избежания ошибок в коде, которые приводят к вылету программы.</p>
         <p>Теперь при возникновении ошибок вы узнаете, что именно произошло, что поможет исправить проблему</p><br>
 
         <h3>Сайт</h3>
         <hr>
-        <p>С шансом 25% фон может замениться с Ubuntu на Windows 10</p><br>
+        <p>· С шансом 25% фон может замениться с Ubuntu на Windows 10</p>
+        <p>· Добавлена тёмная тема</p><br>
     </div>
     <div class="container" id="container-3">
         <h2 id="download_title">Установить</h2>
@@ -84,5 +86,7 @@
         <a href="https://github.com/Dertfin3051/EnigmaIRC/blob/master/README.md"><p>Документация</p></a>
         <a href="https://github.com/Dertfin3051/EnigmaIRC/blob/master/LICENSE.md"><p>Лицензия продукта</p></a>
     </footer>
+    <a onclick="switchTheme()"><div class="theme-switch"></div></a>
+    
 </body>
 </html>

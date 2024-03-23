@@ -7,11 +7,11 @@
 }
 
 :root {
-    --bg-color: white;
-    --header-color: white;
-    --footer-color: rgb(24, 24, 24);
-    --text-color: black;
-    --another-text-color: white;
+    --bg-color: rgb(30, 30, 30);
+    --header-color: rgb(71, 71, 71);
+    --footer-color: rgb(0, 0, 0);
+    --text-color: rgb(255, 255, 255);
+    --another-text-color: rgb(0, 0, 0);
     --big-text-scale: 1.75em;
     --button-text-scale: 1em;
     --normal-text-scale: 0.9em;
@@ -58,6 +58,7 @@ header .logo h1{
     display: inline;
     margin-right: 5vw;
     transition: 0.6s;
+    color: var(--text-color);
 }
 
 header .logo h1:hover{
@@ -98,9 +99,9 @@ header .nav li:last-child {
 }
 
 #container-1 {
-    background-image: url("../images/bg_light.png");
+    background-image: url("../images/bg_dark.png");
     padding: 15vh 5vw 5vh 5vw;
-    color: var(--another-text-color);
+    color: white;
     font-size: var(--big-text-scale);
     font-family: 'Ubuntu';
     width: 90vw;
@@ -162,6 +163,7 @@ button {
     color: var(--another-text-color);
     font-family: 'Ubuntu';
     height: 8vh;
+    color: var(--text-color);
 }
 
 .auto-download-box{
@@ -195,7 +197,7 @@ button {
 
 .other-versions-text{
     font-size: calc(var(--button-text-scale) * 0.6);
-    color: var(--another-text-color);
+    color: white;
 }
 
 footer{
@@ -204,12 +206,12 @@ footer{
     min-height: 2vh;
     background-color: var(--footer-color);
     padding: 5vh 5vw 5vh 5vw;
-    color: var(--another-text-color);
+    color: white;
     font-family: 'Ubuntu';
 }
 
 footer a:-webkit-any-link{
-    color: var(--another-text-color);
+    color: white;
 }
 
 .theme-switch {
@@ -218,8 +220,7 @@ footer a:-webkit-any-link{
     position: fixed;
     bottom: 5px;
     right: 5px;
-    background-image: url("../images/dark_mode.png");
+    background-image: url("../images/light_mode.png");
     background-size:cover;
-
     transition: 1s;
 }
