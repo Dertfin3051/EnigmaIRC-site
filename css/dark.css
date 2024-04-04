@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 
 * {
     margin: 0;
@@ -142,6 +144,24 @@ hr {
 
 #container-2 p {
     font-size: var(--normal-text-scale);
+}
+
+#container-3 p {
+    font-size: var(--normal-text-scale);
+}
+
+.code {
+    display: inline-block;
+    border-radius: 7.5px;
+    background-color: rgb(58, 58, 58);
+    padding: 0.5vh 0.75vw 0.5vh 0.75vw;
+    color: white;
+    margin: 0.5vh 0vw 0.5vh 0vw;
+    font-family: 'Source Code Pro', sans-serif;
+}
+
+#container-3 .code{
+    font-size: 0.75em;
 }
 
 .b1 {
