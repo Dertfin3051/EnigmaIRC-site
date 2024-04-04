@@ -155,11 +155,12 @@ hr {
 .code {
     display: inline-block;
     border-radius: 7.5px;
-    background-color: rgb(58, 58, 58);
+    background-color: rgb(77, 77, 77);
     padding: 0.5vh 0.75vw 0.5vh 0.75vw;
     color: white;
     margin: 0.5vh 0vw 0.5vh 0vw;
     font-family: 'Source Code Pro', sans-serif;
+    width: 80vw;
 }
 
 #container-3 .code{
