@@ -161,6 +161,7 @@ hr {
     margin: 0.5vh 0vw 0.5vh 0vw;
     font-family: 'Source Code Pro', sans-serif;
     width: 80vw;
+    word-wrap: break-word;
 }
 
 #container-3 .code{
