@@ -1,6 +1,5 @@
 var isEnabled = true;
 
 if (isEnabled){
-    window.open("maintenance.html");
-    window.close();
+    window.location.href = "https://enigma-irc.dfhub.ru/maintenance.html";
 }
