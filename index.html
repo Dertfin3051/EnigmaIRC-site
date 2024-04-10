@@ -62,11 +62,10 @@
     <script src="js/random_bg.js"></script>
     <div class="container" id="container-2">
         <h2 class="what-new">Что нового?</h2>
-        <h3>v0.4a</h3>
+        <h3>v1.0beta</h3>
         <hr>
-        <p>· Добавлены исключения для избежания ошибок в коде, которые приводят к вылету программы.</p>
-        <p>Теперь при возникновении ошибок вы узнаете, что именно произошло, что поможет исправить проблему</p><br>
-
+        <p>· Мессенджер подготовлен и протестирован к первому релизу.</p>
+        <br>
         <h3>Сайт</h3>
         <hr>
         <p>· С шансом 25% фон может замениться с Ubuntu на Windows 10</p>
@@ -78,23 +77,28 @@
         <hr>
         <h3>Клиент</h3>
         <button class="download_button" onclick="dWindows();">
-            <b>EnigmaIRC v0.4a</b>
-            <p class="small-btn-text">Windows 10/11</p>
+            <b>EnigmaIRC v1.0beta</b>
+            <p class="small-btn-text">Windows 10</p>
         </button>
         <button class="download_button" onclick="dLinux();">
-            <b>EnigmaIRC v0.4a</b>
+            <b>EnigmaIRC v1.0beta</b>
             <p class="small-btn-text">Linux <i>(Source code)</i></p>
         </button>
         <br>
         <br>
         <h3>Сервер</h3>
-        <button class="download_button" onclick="dServer();">
-            <b>EnigmaIRC Server v0.4a</b>
-            <p class="small-btn-text">Linux</p>
+        <button class="download_button" onclick="dServerDebian();">
+            <b>EnigmaIRC Server v1.0beta</b>
+            <p class="small-btn-text">Debian</p>
         </button>
-        <p>Или</p>
-        <p class="code">wget -O EnigmaIRC_server.tar.gz https://github.com/Dertfin3051/EnigmaIRC/releases/download/v1.x/EnigmaIRC_Server_Linux_v1-0beta.tar.gz</p>
-        
+        <button class="download_button" onclick="dServerSource();">
+            <b>EnigmaIRC Server v1.0beta</b>
+            <p class="small-btn-text">Linux <i>(Source code)</i></p>
+        </button>
+        <p>Или <i>(для Debian)</i></p>
+        <p class="code">wget -O EnigmaIRC_server.tar.gz https://github.com/Dertfin3051/EnigmaIRC/releases/download/v1.x/EnigmaIRC_server_v1-0beta_Debian.tar.gz</p>
+        <p>Или <i>(исходный код)</i></p>
+        <p class="code">git clone https://github.com/Dertfin3051/EnigmaIRC.git</p>
     </div>
     <footer>
         <h2>EnigmaIRC© 2024</h2><br>
