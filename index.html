@@ -14,9 +14,9 @@
 
     <title>EnigmaIRC</title>
 </head>
-<body style="overflow-x:hidden;">
-    <script src="js/download.js"></script>
+<body style="overflow-x:hidden;" onload="checkAuto();">
     <script src="js/theme.js"></script>
+    <script src="js/download.js"></script>
     <script src="js/maintenance.js"></script>
     <header>
 
@@ -46,10 +46,9 @@
         </article>
         <br><br><br>
         <div class="auto-download-box">
-            <button class="auto-download" id="auto-download" onclick="dWindows();">
+            <button class="auto-download" id="auto-download" onclick="dAuto();">
                 <b>Установить</b><br>
-                <p class="small-btn-text" id="small-btn-text">Windows 10/11</p>
-                
+                <p class="small-btn-text" id="small-btn-text">a</p>
             </button>
             
             <br>
@@ -57,7 +56,6 @@
                 <p class="other-versions-text">Другие версии</p>
             </a>
         </div>
-        
     </div>
     <script src="js/random_bg.js"></script>
     <div class="container" id="container-2">
