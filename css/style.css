@@ -189,8 +189,12 @@ button {
     font-family: 'Ubuntu';
     height: 8vh;
     cursor: pointer;
+    transition: 0.7s;
 }
 
+button:hover {
+    background-color: rgb(18, 34, 255);
+}
 .auto-download-box{
     width: max-content;
     height: max-content;
