@@ -187,6 +187,7 @@ button {
     font-family: 'Ubuntu';
     height: 8vh;
     color: var(--text-color);
+    cursor: pointer;
 }
 
 .auto-download-box{
