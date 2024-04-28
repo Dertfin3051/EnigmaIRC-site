@@ -1,0 +1,15 @@
+<svg width="102" height="102" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="64" cy="64" r="51" fill="black"/>
+    <mask id="mask" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="14" y="14" width="100" height="100">
+        <circle cx="64" cy="64" r="50" fill="white"/>
+    </mask>
+    <g mask="url(#mask)">
+        <circle cx="64" cy="64" r="50" fill="white"/>
+        <circle cx="43.5" cy="43.5" r="20.5" fill="black"/>
+        <circle cx="34.5" cy="34.5" r="20.5" fill="white"/>
+        <path d="M83.5 42L45 79" stroke="black"/>
+        <path d="M79.5 59L83 67.3L89.9563 61.5772L89.1982 70.553L98.0171 68.7185L93.1746 76.3139L101.836 78.7879L94.0184 83.2628L100.538 89.4786L91.5361 89.8079L94.4203 98.3415L86.2966 94.4498L84.8846 103.346L79.5 96.125L74.1154 103.346L72.7034 94.4498L64.5797 98.3415L67.4639 89.8079L58.4621 89.4786L64.9816 83.2628L57.1641 78.7879L65.8254 76.3139L60.9829 68.7185L69.8018 70.553L69.0437 61.5772L76 67.3L79.5 59Z" fill="black"/>
+        <circle cx="79.5" cy="81.5" r="13.5" fill="white"/>
+        <circle cx="79.5" cy="81.5" r="12.5" fill="black"/>
+    </g>
+</svg>

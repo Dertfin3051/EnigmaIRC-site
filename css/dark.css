@@ -245,11 +245,11 @@ footer a:-webkit-any-link{
 
 .theme-switch {
     position: fixed;
-    width: 45px;
-    height: 45px;
+    width: 80px;
+    height: 80px;
     bottom: 1vw;
     right: 1vw;
-    background-image: url("../images/light_mode.png");
+    background-image: url("../images/light_mode.svg");
     background-size:cover;
     transition: 1s;
 }

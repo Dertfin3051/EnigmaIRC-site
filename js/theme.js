@@ -1,13 +1,17 @@
-var isDark = false;
+let isDark = false;
 
-function switchTheme(){
-    if (isDark){
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function switchTheme() {
+    if (isDark) {
         document.getElementById("main_theme").setAttribute("href", "css/style.css");
         isDark = false;
-    } else{
+    } else {
         document.getElementById("main_theme").setAttribute("href", "css/dark.css");
         isDark = true;
     }
-    sleep(2000);
+    await sleep(2000)
 }
 
